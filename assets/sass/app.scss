@@ -1,0 +1,2114 @@
+// Your custom settings file to override Foundation defaults
+@import "settings";
+
+// Comment out this import if you are customizing you imports below
+//@import "foundation";
+
+// ----------------------------------------
+// Import specific parts of Foundation by commenting the import "foundation"
+// and uncommenting what you want below. You must uncomment the following if customizing
+
+@import "compass/css3";
+@import "foundation/settings";
+@import "foundation/functions/all";
+
+// Control which mixins you have access too
+
+@import "foundation/mixins/clearfix";
+@import "foundation/mixins/css-triangle";
+// @import "foundation/mixins/font-size";
+
+// Must include next two for semantic grid to work
+
+@import "foundation/mixins/respond-to";
+@import "foundation/mixins/semantic-grid";
+
+// @import "modular-scale";
+@import "foundation/common/globals";
+
+// Must include the grid for any responsiveness
+
+@import "foundation/components/grid";
+
+// Control which common styles get compiled
+
+// @import "foundation/common/typography";
+// @import "foundation/common/forms";
+
+// Control which components you get if customizing
+
+// @import "foundation/components/modules/buttons";
+// @import "foundation/components/modules/tabs";
+// @import "foundation/components/modules/ui";
+// @import "foundation/components/modules/topbar";
+// @import "foundation/components/modules/navbar";
+// @import "foundation/components/modules/orbit";
+// @import "foundation/components/modules/reveal";
+// @import "foundation/components/modules/offcanvas";
+// @import "foundation/components/modules/clearing";
+// @import "foundation/components/modules/joyride";
+
+// Media Queries Overrides
+@import "foundation/components/modules/mqueries";
+
+// Cuberis additions
+@import "normalize";
+@import "icons";
+@import "retina";
+@import "fonts";
+@import url(http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic|Varela);
+
+/******************
+******************* STRUCTURE
+******************/
+
+html, body {
+	width: 100%;
+	height: 100%;
+	font-family: Varela;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+img {
+	display: block;
+}
+
+.push-one {
+	left: 8.33335%
+}
+
+.pull-one {
+	right: 8.33335%;
+}
+
+.four-and-half {
+	width: 37.5%;
+}
+
+.one-and-half {
+	width: 12.5%;
+}
+
+a {
+	color: #0c3b89;
+
+	&:hover, &:active, &:focus {
+		color: darken(#0c3b89, 10%);
+		text-decoration: underline;
+		outline: none;
+	}
+}
+
+.block-grid.two-up {
+	& > li {
+		//padding: 0 10px 40px;
+	}
+
+	@media screen and (max-width: 1180px) {
+		margin: 0;
+	}
+}
+
+#pre-spacer {
+	height: 150px;
+}
+
+@media screen and (max-width:767px) {
+	.pull-five-mobile {
+		right: 62.5% !important;
+	}
+}
+
+.share {
+	position: relative;
+	height: 32px;
+
+	.label {
+		display: inline-block;
+		background: $black;
+		color: $white;
+		text-transform: uppercase;
+		font-size: .9em;
+		height: 32px;
+		padding: 0 5px;
+		line-height: 32px;
+		vertical-align: bottom;
+		cursor: pointer;
+	}
+
+	.buttons {
+		display: inline-block;
+		vertical-align: bottom;
+		overflow: hidden;
+		@include opacity(0);
+		@include transition(opacity .5s ease);
+
+		a {
+			display: inline-block;
+			vertical-align: bottom;
+		}
+	}
+
+	&:hover {
+		.buttons {
+			@include opacity(1);
+		}
+	}
+
+	@media screen and (max-width:767px) {
+		.buttons {
+			opacity: 1 !important;
+		}
+	}
+}
+
+
+/******************
+******************* HOME PAGE
+******************/
+
+h1.main-title {
+	display: none;
+}
+
+#main-logo {
+	position: absolute;
+	z-index: 1000;
+	left: 50%;
+	margin-left: -249px;
+	top: 36%;
+
+	.windows.chrome & {
+		//@include transition(all .3s linear);
+	}
+}
+
+#mobile-logo {
+	position: absolute;
+	z-index: 10000;
+	left: 50%;
+	margin-left: -160px;
+	top: 30%;
+	width: 320px;
+	height: auto;
+}
+
+#mobile-slideshow {
+	position: relative;
+	width: 100%;
+
+	.cycle-prev {
+		position: absolute;
+		top: 30%;
+		margin-top: 57px;
+		left: 10px;
+		z-index: 1000;
+		text-indent: -100em;
+		overflow: hidden;
+
+		@media screen and (max-width:454px) {
+			display: none;
+		}
+	}
+
+	.cycle-next {
+		position: absolute;
+		top: 30%;
+		margin-top: 57px;
+		right: 10px;
+		z-index: 1000;
+		text-indent: -100em;
+		overflow: hidden;
+
+		@media screen and (max-width:454px) {
+			display: none;
+		}
+	}
+
+	#mobile-slides {
+		position: relative;
+		overflow: hidden;
+
+		.cycle-slide {
+			width: 100%;
+
+			.title-box {
+				background: $black;
+				color: $white;
+				height: 136px;
+				width: 100%;
+				position: relative;
+				font-size: 1.2em;
+
+				&.our-state {
+					text-align: center;
+
+					img {
+						display: inline;
+						float: none;
+						margin: 0px;
+						width: auto;
+						height: auto;
+					}
+				}
+
+				img {
+					display: block;
+					float: left;
+					margin: 0 15px 0 0;
+					width: 136px;
+					height: 136px;
+				}
+
+				.inner {
+					display: table;
+					//width: 100%;
+					height: 100%;
+				}
+
+				.title {
+					display: table-cell;
+					vertical-align: middle;
+					padding: 0 10px 0 0;
+					overflow: hidden;
+					text-align: left;
+					width: 100%;
+				}
+
+				span {
+					display: block;
+					font-family: "Crimson Text",serif;
+					font-style: italic;
+					font-size: 1.3em;
+					line-height: 1.2em;
+				}
+
+				a {
+					color: $white;
+					text-decoration: none;
+				}
+			}
+
+			.explore {
+				color: $white;
+				position: absolute;
+				width: 364px;
+				text-align: center;
+				left: 50%;
+				margin-left: -182px;
+				bottom: 136px;
+				font-size: .9em;
+
+				@media screen and (max-width:454px) {
+					display: none;
+				}
+			}
+
+			.caption {
+				bottom: 136px;
+				right: 0px;
+				z-index: 1000;
+			}
+
+		}
+	}
+}
+
+#feature-slideshow {
+	position: relative;
+	height: 80%;
+	min-height: 550px;
+	width: 100%;
+
+	.cycle-prev {
+		position: absolute;
+		top: 30%;
+		margin-top: 57px;
+		left: 10px;
+		z-index: 1000;
+		text-indent: -100em;
+		overflow: hidden;
+	}
+
+	.cycle-next {
+		position: absolute;
+		top: 30%;
+		margin-top: 57px;
+		right: 10px;
+		z-index: 1000;
+		text-indent: -100em;
+		overflow: hidden;
+	}
+
+	#slides {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		height: 100%;
+		z-index: 0;
+		overflow: hidden;
+
+		.cycle-slide {
+			width: 100%;
+			height: 100%;
+		}
+
+		img {
+			min-width: 100%;
+			position: relative;
+
+			.windows.chrome & {
+				//@include transition(all .3s linear);
+			}
+		}
+
+		.caption {
+			bottom: 70px;
+			right: 0px;
+			max-width: 300px;
+		}
+
+		.explore {
+			color: $white;
+			position: absolute;
+			width: 364px;
+			text-align: center;
+			left: 50%;
+			margin-left: -182px;
+			bottom: 120px;
+			font-size: .9em;
+		}
+
+		.shadow {
+			position: absolute;
+			top: 30%;
+			left: 50%;
+			margin-left: -403px;
+			margin-top: -95px;
+			width: 806px;
+			height: 374px;
+			background: url('../images/gradient.png') no-repeat center center;
+			display: none;
+		}
+
+		.cycle-slide-active {
+			.shadow {
+				display: block;
+			}
+		}
+	}
+
+	.bx-wrapper {
+		margin: 0px;
+
+		.bx-viewport {
+			@include box-shadow(none);
+			border: none;
+			left: 0px;
+		}
+	}
+
+	.caroufredsel_wrapper {
+		z-index: 100;
+		height: 100%;
+		top: auto !important;
+		bottom: 0px !important;
+		position: absolute;
+		width: 100% !important;
+	}
+
+	.pager-background {
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+		height: 70px;
+		width: 100%;
+		z-index: 50;
+		background: $white;
+	}
+
+	#pager {
+		position: absolute !important;
+		bottom: 0px;
+		left: 0px;
+		width: 100%;
+		z-index: 100;
+
+		& > div {
+			width: 95px;
+			height: 70px;
+			float: left;
+			position: relative;
+			background: $white;
+
+			img {
+				display: inline-block;
+				position: absolute;
+				top: 0px;
+				right: 0px;
+				@include transition(opacity .3s ease);
+
+				&.color {
+					@include opacity(0);
+				}
+
+				&.gray {
+					@include opacity(.4);
+				}
+			}
+
+			&:hover {
+				img {
+					&.color {
+						@include opacity(1);
+					}
+
+					&.gray {
+						@include opacity(0);
+					}
+				}
+			}
+		}
+
+		.lt-ie9 & .item {
+			cursor: default !important;
+		}
+
+		.cycle-carousel-wrap {
+			margin-left: 50%;
+		}
+
+		.cycle-slide {
+			position: relative !important;
+			width: 95px;
+			height: 70px;
+			@include transition(width .5s ease);
+
+			& > img {
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				@include transition(opacity .3s ease);
+
+			}
+		}
+	}
+}
+
+#title-slides {
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	margin-left: -182px;
+	margin-top: -103px;
+	z-index: 500;
+	width: 364px;
+	height: 136px;
+	background: $black;
+	color: $white;
+	overflow: hidden;
+
+	.cycle-slide {
+		width: 100%;
+		height: 100%;
+		position: relative;
+		top: -33px;
+		font-size: 1.2em;
+
+		img {
+			display: block;
+			float: left;
+			margin: 0 15px 0 0;
+		}
+
+		.inner {
+			display: table;
+			width: 100%;
+			height: 100%;
+		}
+
+		.title {
+			display: table-cell;
+			vertical-align: middle;
+			padding: 0 10px 0 0;
+			overflow: hidden;
+			text-align: left;
+			width: 213px;
+		}
+
+		span {
+			display: block;
+			font-family: "Crimson Text",serif;
+			font-style: italic;
+			font-size: 1.3em;
+			line-height: 1.2em;
+		}
+
+		a {
+			color: $white;
+			text-decoration: none;
+		}
+	}
+
+	@media screen and (max-height: 689px) {
+		top: 545px;
+	}
+}
+
+#intro {
+	p {
+		@include column(7);
+		margin: 80px auto 60px;
+		float: none;
+		text-align: center;
+		font-family: "Crimson Text",serif;
+		font-size: 2em;
+		font-style: italic;
+		line-height: 1.1em;
+	}
+
+	.scroll {
+		width: 364px;
+		background: $black;
+		margin: 0 auto;
+		text-align: center;
+		color: $white;
+		padding: 6px 0;
+
+		span {
+			display: block;
+			margin: 6px auto;
+		}
+	}
+}
+
+#how-this-came-to-be {
+	position: relative;
+	overflow: hidden;
+
+	img {
+		.windows.chrome & {
+			//@include transition(all .3s linear);
+		}
+	}
+
+	.centered {
+		background: $white;
+		padding: 40px 80px 0;
+		opacity: 0;
+
+		h2 {
+			font-family: "ClarendonFS", serif;
+			font-size: 3em;
+			text-align: center;
+			margin: 0px 0px 0.5em;
+			line-height: 1em;
+		}
+
+		@media screen and (max-width:767px) {
+			opacity: 1 !important;
+			padding: 40px 20px;
+		}
+
+		.iphone & {
+			opacity: 1 !important;
+		}
+	}
+
+	#listen {
+		width: 364px;
+		height: 90px;
+		position: relative;
+		margin: 0 auto;
+		background: $black;
+		color: $white;
+		font-family: "Crimson Text";
+		font-size: 1em;
+
+		.jp-controls {
+			width: 90px;
+			height: 90px;
+			float: right;
+			padding: 11px 0;
+		}
+
+		.inner {
+			border-right: 1px solid $white;
+			margin: 20px 0 0 0;
+			padding-right: 20px;
+			overflow: hidden;
+			text-align: right;
+		}
+
+		@media screen and (max-width:767px) {
+			width: auto;
+			max-width: 364px;
+
+			.inner {
+				margin-top: 8px;
+			}
+		}
+	}
+
+	.caption {
+		z-index: 100;
+		max-width: 300px;
+		right: 0px;
+	}
+}
+
+#recent-prayers {
+	position: relative;
+	overflow: hidden;
+
+	.row {
+		position: relative;
+	}
+
+	li {
+		padding-bottom: 40px;
+
+		&.fade {
+			a.thumb .wash {
+				@include opacity(.5);
+			}
+		}
+
+		&.full {
+			padding-bottom: 65px;
+
+			.inner {
+				background: $white;
+			}
+		}
+	}
+
+	h2 {
+		text-indent: -100em;
+		overflow: hidden;
+		margin: 120px auto 40px;
+
+		@media screen and (max-width:767px) {
+			background: url('../images/recent_prayers.png') no-repeat 0 0;
+			width: 320px;
+			height: 75px;
+			@include background-size(320px 71px);
+		}
+	}
+
+	a.thumb {
+		position: relative;
+		display: block;
+
+		.wash {
+			@include transition(opacity .5s ease);
+			background: $white;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			width: 100%;
+			height: 100%;
+			@include opacity(0);
+		}
+
+		@media screen and (max-width:767px) {
+			img {
+				width: 100%;
+			}
+
+			.wash {
+				display: none !important;
+			}
+		}
+	}
+
+	.title {
+		width: 385px;
+		margin: -65px auto 0;
+		background: $black;
+		color: $white;
+		padding: 15px;
+		text-align: center;
+		font-family: "Crimson Text",serif;
+		font-size: 1.2em;
+		line-height: 1.4em;
+		height: 80px;
+		position: relative;
+
+		a {
+			color: $white;
+		}
+
+		span {
+			font-style: italic;
+			font-size: 1.3em;
+		}
+
+		@media screen and (max-width:767px) {
+			max-width: 100%;
+			font-size: 1em;
+		}
+	}
+
+	.excerpt {
+		padding: 40px 40px 15px 40px;
+		position: relative;
+	}
+
+	.continue {
+		width: 385px;
+		margin: 0 auto 0;
+		background: $black;
+		color: $white;
+		padding: 11px;
+		font-family: "Crimson Text", serif;
+		font-style: italic;
+		height: 42px;
+		position: relative;
+		bottom: -22px;
+		text-align: center;
+		line-height: 1.2em;
+
+		a {
+			color: $white;
+		}
+
+		@media screen and (max-width:767px) {
+			max-width: 100%;
+			font-size: .9em;
+
+			a.permalink {
+				width: 226px;
+			}
+		}
+	}
+}
+
+#upcoming-prayers {
+	background: #bcc7cd;
+	padding-bottom: 40px;
+
+	h2 {
+		text-indent: -100em;
+		overflow: hidden;
+		margin: 60px auto 40px;
+
+		@media screen and (max-width:767px) {
+			background: url('../images/upcoming_prayers.png') no-repeat 0 0;
+			width: 320px;
+			height: 76px;
+			@include background-size(320px 72px);
+		}
+	}
+
+	p {
+		text-align: center;
+		color: #6d6e71;
+	}
+
+	li {
+		padding: 1px;
+
+		.inner {
+			background: #96a0a2;
+			@include transform(all .3s ease);
+			color: $white;
+			padding: 20px 30px;
+
+			&:hover {
+				//background: darken(#96a0a2, 20%);
+			}
+
+			.date {
+				float: left;
+				padding-right: 20px;
+				font-size: 1.2em;
+			}
+
+			.title {
+				overflow: hidden;
+
+				span {
+					font-family: "Crimson Text",serif;
+					font-style: italic;
+					font-size: 1.5em;
+				}
+			}
+		}
+	}
+}
+
+/******************
+******************* HEADER
+******************/
+
+.sticky-wrapper {
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+
+	@media screen and (max-width:767px) {
+		position: relative;
+	}
+}
+
+#sticky-nav {
+	@include outerRow;
+	background: $trans_blue;
+	position: relative;
+	height: 73px;
+
+	.lt-ie9 & {
+		background: url('../images/trans_blue.png') repeat;
+	}
+}
+
+#main-nav {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+
+	#logo a {
+		display: block;
+		@include at2x('logo', 265px, 73px, '.jpg');
+		width: 265px;
+		height: 73px;
+		text-indent: -1000em;
+		overflow: hidden;
+	}
+
+	#prayers {
+		margin: 0px;
+		padding: 10px 20px;
+		background: $trans_gray;
+		color: $white;
+		overflow: hidden;
+		height: 0;
+		@include opacity(0);
+		@include transition(opacity .5s ease);
+
+		.lt-ie9 & {
+			background: url('../images/trans_gray.png') repeat;
+		}
+
+		&.show {
+			height: auto;
+			@include opacity(1);
+		}
+
+		ul {
+			list-style: none;
+			padding: 0 60px 0 0;
+			margin: 8px 0;
+
+			li {
+				font-size: .9em;
+				color: darken($white, 30%);
+
+				span {
+					font-family: "Crimson Text", serif;
+					font-style: italic;
+					font-size: 1.3em;
+				}
+				a {
+					color: $white;
+				}
+
+				&.date {
+					margin-top: 8px;
+
+					&:first-child {
+						margin-top: 0px;
+					}
+				}
+			}
+		}
+	}
+}
+
+#inner-nav {
+	float: right;
+	position: relative;
+	height: 73px;
+
+	ul {
+		list-style: none;
+		margin: 0px;
+		padding: 0px;
+
+		li {
+			float: left;
+			padding: 43px 15px 0;
+
+			a {
+				font-family: Varela;
+				text-transform: uppercase;
+				text-decoration: none;
+				color: $white;
+				font-size: .8em;
+			}
+
+			&.active a {
+				//text-decoration: underline;
+			}
+		}
+	}
+
+	#lavalamp {
+		position: absolute;
+		bottom: 0px;
+		height: 2px;
+		background: $black;
+		@include transition(all 0.5s ease);
+		display: none;
+	}
+
+	.temp {
+		padding: 43px 15px 0;
+		color: $white;
+		font-size: .9em;
+		text-transform: uppercase;
+		font-family: Varela;
+		display: block;
+	}
+
+	.postid-70 & {
+		@media screen and (max-width:1050px) {
+			width: 500px;
+			text-align: right;
+
+			li {
+				display: inline-block;
+				float: none;
+				padding: 9px 15px 0;
+
+				&.active a {
+					border-bottom: 2px solid $black;
+				}
+			}
+
+			#lavalamp {
+				display: none !important;
+			}
+		}
+	}
+
+	.postid-72 & {
+		@media screen and (max-width:910px) {
+			width: 460px;
+			text-align: right;
+
+			li {
+				display: inline-block;
+				float: none;
+				padding: 9px 15px 0;
+
+				&.active a {
+					border-bottom: 2px solid $black;
+				}
+			}
+
+			#lavalamp {
+				display: none !important;
+			}
+		}
+	}
+	
+	.postid-13 & {
+		@media screen and (max-width:1030px) {
+			width: 500px;
+			text-align: right;
+
+			li {
+				display: inline-block;
+				float: none;
+				padding: 9px 15px 0;
+
+				&.active a {
+					border-bottom: 2px solid $black;
+				}
+			}
+
+			#lavalamp {
+				display: none !important;
+			}
+		}
+	}
+	
+}
+
+
+/******************
+******************* SINGLE PRAYER
+******************/
+
+.caption {
+	position: absolute;
+	bottom: 0px;
+	right: 10px;
+	background: $opaque_blue;
+	color: $white;
+
+	.text {
+		display: block;
+		padding: 10px 34px 10px 10px;
+		font-size: .8em;
+		line-height: 1.1em;
+
+		@media screen and (max-width:767px) {
+			padding: 5px 34px 5px 5px;
+			font-size: .75em;
+			min-height: 34px;
+		}
+
+		a {
+			color: $white;
+			text-decoration: underline;
+		}
+	}
+
+	.toggle {
+		display: block;
+		width: 34px;
+		height: 34px;
+		position: absolute;
+		bottom: 0px;
+		right: 0px;
+		background-color: $opaque_blue;
+		background-repeat: no-repeat;
+		cursor: pointer;
+
+		&:hover, &:active, &:focus {
+			text-decoration: none;
+		}
+	}
+
+	&.for-bg {
+		right: 0px;
+
+		&.stuck {
+			position: fixed;
+		}
+
+		.iphone & {
+			display: none !important;
+		}
+	}
+}
+
+#hero {
+	width: 100%;
+	height: 80%;
+	min-height: 550px;
+	position: relative;
+	overflow: hidden;
+
+	@media screen and (max-width:902px) {
+		height: auto;
+		min-height: 0;
+	}
+
+	& > img {
+		position: relative;
+		width: 100%;
+
+		@media screen and (max-width:767px) {
+			transform: none !important;
+			-ms-transform: none !important;
+			-moz-transform: none !important;
+			-webkit-transform: none !important;
+		}
+	}
+
+	.shadow {
+		position: absolute;
+		top: 30%;
+		left: 50%;
+		margin-left: -403px;
+		margin-top: -95px;
+		width: 806px;
+		height: 374px;
+		background: url('../images/gradient.png') no-repeat center center;
+
+		.postid-72 &, .postid-78 &, .postid-84 & {
+			display: none !important;
+		}
+
+		@media screen and (max-width:767px) {
+			top: 15%;
+		}
+	}
+
+	#b-roll {
+		min-width: 100%;
+		min-height: 100%;
+		height: auto;
+		width: auto;
+	}
+
+	#video {
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+
+		.big-image {
+			min-width: 100%;
+			min-height: 100%;
+			height: auto;
+			width: auto;
+		}
+	}
+
+	.caption {
+		right: 0px;
+		max-width: 320px;
+		z-index: 100;
+
+		@media screen and (max-width:767px) {
+			bottom: 86px;
+		}
+	}
+
+	#title {
+		width: 446px;
+		position: absolute;
+		top: 35%;
+		left: 50%;
+		margin-left: -223px;
+		text-align: center;
+		color: $white;
+		//background: url('../images/title_shadow.png') no-repeat center center;
+
+		h1 {
+			font-family: "ClarendonFS", serif;
+			margin: 0px;
+			width: 100%;
+			border-bottom: 1px solid $white;
+			font-weight: normal;
+			line-height: 1em;
+			font-size: 3em;
+		}
+
+		h2 {
+			font-family: "Varela", sans-serif;
+			margin: 0px;
+			line-height: 1.5em;
+			font-size: 1.75em;
+			text-transform: uppercase;
+		}
+
+		img {
+			display: inline !important;
+
+			@media screen and (max-width:767px) {
+				display: none !important;
+			}
+		}
+
+		@media screen and (max-width:767px) {
+			top: 35%;
+			margin-left: -160px;
+			width: 320px;
+			transform: none !important;
+			-ms-transform: none !important;
+			-moz-transform: none !important;
+			-webkit-transform: none !important;
+
+			h1 {
+				font-size: 2.5em;
+				margin: 0px;
+			}
+
+			h2 {
+				font-size: 1.35em;
+			}
+		}
+
+		@media screen and (max-width:495px) {
+			top: 30%;
+		}
+	}
+
+	#listen {
+		width: 364px;
+		height: 86px;
+		position: absolute;
+		bottom: 0px;
+		left: 50%;
+		margin-left: -182px;
+		background: $black;
+		color: $white;
+		font-family: "Crimson Text";
+		font-size: 1em;
+		text-align: center;
+
+		.not-yet {
+			font-style: italic;
+			position: absolute;
+			width: 100%;
+			height: 24px;
+			top: 18px;
+			font-size: 1.2em;
+		}
+
+		@media screen and (max-width:767px) {
+			position: relative;
+			margin: 0 auto;
+			left: auto;
+			bottom: auto;
+			max-width: 320px;
+		}
+	}
+}
+
+
+.jp-controls {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+
+	.jp-play {
+		text-indent: -100em;
+		overflow: hidden;
+		margin: 8px auto 4px;
+	}
+	.jp-pause {
+		text-indent: -100em;
+		overflow: hidden;
+		margin: 8px auto 4px;
+	}
+}
+
+.jp-progress {
+	width: 100%;
+	height: 2px;
+
+	.jp-seek-bar {
+		//background: lighten($black, 50%);
+		height: 100%;
+	}
+
+	.jp-play-bar {
+		background: $white;
+		height: 100%;
+	}
+}
+
+.jp-time-holder {
+	display: none;
+}
+
+#scroll {
+	text-align: center;
+	line-height: 2em;
+	margin-bottom: 40px;
+
+	span {
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+#prayer {
+	position: relative;
+	@include outerRow;
+	margin: 107px auto;
+
+	h3 {
+		font-size: 2em;
+		font-family: "Crimson Text", serif;
+		font-style: italic;
+		line-height: 1.1em;
+		text-align: center;
+		margin: 0px auto;
+	}
+
+	.bio-pic {
+		position: relative;
+		padding-left: 0px;
+	}
+
+	&.moving {
+		.bio-pic {
+			position: fixed;
+			top: 145px;
+
+			@media only screen and (max-height: 745px) {
+				top: 92px;
+			}
+
+			.logged-in & {
+				top: 173px;
+
+				@media only screen and (max-height: 745px) {
+					top: 120px;
+				}
+			}
+		}
+
+		.ie8 & .text {
+			position: relative;
+			left: 50%;
+		}
+	}
+
+	&.bottom {
+		.bio-pic {
+			position: absolute;
+			bottom: 0;
+		}
+
+		.ie8 & .text {
+			position: relative;
+			left: 50%;
+		}
+	}
+
+	.inner-scroll {
+		@media screen and (min-width:768px) {
+			margin-left: 20px;
+		}
+
+		.small-author {
+			position: relative;
+
+			.caption {
+				right: 0px;
+			}
+		}
+
+		h2 {
+			margin: 0 0 2em;
+			font-weight: normal;
+			font-size: 1em;
+			text-transform: uppercase;
+		}
+
+		p:first-of-type {
+			margin-top: 0px;
+		}
+
+		p:first-of-type:first-letter {
+			float: left;
+			background: $black;
+			color: $white;
+			font-size: 5em;
+			display: block;
+			padding: 20px;
+			margin: 0 20px 10px 0;
+			text-align: center;
+			line-height: 1.2em;
+			font-style: normal;
+		}
+
+		p {
+			@include opacity(0);
+			//opacity: 1 !important;
+
+			&:first-of-type {
+				@include opacity(1);
+			}
+
+			img {
+				display: inline-block;
+				width: 40px;
+				vertical-align: -3px;
+				margin-left: 2px;
+			}
+
+			.iphone & {
+				opacity: 1 !important;
+			}
+
+			@media screen and (max-width:767px) {
+				opacity: 1 !important;
+			}
+		}
+
+		img.crop {
+			width: 100%;
+			margin-bottom: 40px;
+		}
+
+		.share {
+			margin-top: 30px;
+			@include opacity(0);
+			//opacity: 1 !important;
+
+			.iphone & {
+				opacity: 1 !important;
+			}
+
+			@media screen and (max-width:767px) {
+				opacity: 1 !important;
+			}
+		}
+	}
+}
+
+.background {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 0;
+	width: 100%;
+
+	&.stuck {
+		position: fixed;
+		bottom: 0px;
+		top: auto;
+	}
+
+	&.bottom {
+		position: absolute;
+		bottom: 0px;
+		top: auto;
+	}
+
+	.iphone.single & {
+		display: none !important;
+	}
+}
+
+#sections {
+	overflow: hidden;
+	position: relative;
+
+	.supplemental {
+		position: relative;
+		@include outerRow;
+		margin: 0 auto 107px;
+
+		h2.section {
+			font-family: "ClarendonFS", serif;
+			font-size: 3em;
+			text-align: center;
+			margin: 0 0 .5em;
+			line-height: 1em;
+			@include opacity(0);
+			//opacity: 1 !important;
+
+			.iphone & {
+				opacity: 1 !important;
+			}
+
+			@media screen and (max-width:767px) {
+				opacity: 1 !important;
+			}
+		}
+
+		h3.pullquote {
+			font-family: "Crimson Text", serif;
+			font-size: 2em;
+			text-align: center;
+			font-style: italic;
+			line-height: 1.1em;
+			margin-bottom: .5em;
+			@include opacity(0);
+			//opacity: 1 !important;
+
+			.iphone & {
+				opacity: 1 !important;
+			}
+
+			@media screen and (max-width:767px) {
+				opacity: 1 !important;
+			}
+		}
+
+		.content {
+			background: $white;
+			padding: 0 20px;
+
+			.inner {
+				padding-bottom: 40px;
+			}
+
+			h2, h3 {
+				font-size: 1.5em;
+				margin-bottom: .25em;
+			}
+
+			h2:first-child, h3:first-child, p:first-child {
+				padding-top: 20px;
+			}
+
+			p {
+				margin: 0 0 1em;
+
+				&:first-child {
+					margin: 1em 0;
+				}
+			}
+
+			@media screen and (max-width:767px) {
+				clear: both;
+				background: none;
+			}
+
+			.share {
+				position: absolute;
+				bottom: 0;
+			}
+		}
+
+		.thin {
+			padding: 0 5px;
+		}
+
+		.no-left {
+			padding-left: 0px;
+		}
+
+		.no-right {
+			padding-right: 0px;
+		}
+
+		.asset {
+			position: relative;
+			overflow: hidden;
+
+			&.type-slideshow {
+				width: 100%;
+
+				.cycle-slideshow {
+					width: 100%;
+
+					.slide {
+						width: 100%;
+					}
+				}
+			}
+		}
+
+		img {
+			display: block;
+		}
+
+		.caption {
+			right: 0px;
+		}
+
+		.spacer {
+			height: 10px;
+			width: 100%;
+		}
+
+		.jp-audio {
+			position: absolute;
+			top: 0px;
+			right: 0px;
+			height: 90px;
+			width: 100%;
+
+			.jp-interface {
+				position: relative;
+				min-height: 90px;
+				width: 100%;
+				@media screen and (max-width:500px) {
+					min-height: 45px;
+				}
+			}
+
+			.desc {
+				background: $trans_blue;
+				color: $white;
+				min-height: 90px;
+				overflow: hidden;
+				display: none;
+				font-size: .9em;
+				line-height: 1.1em;
+
+				a {
+					color: $white;
+					text-decoration: underline;
+				}
+
+				.inner {
+					padding: 6px 10px 0 10px;
+				}
+
+				.jp-progress {
+					background: none;
+					position: absolute;
+					bottom: 0px;
+					left: 0px;
+				}
+
+				.lt-ie9 & {
+					background: url('../images/trans_blue.png') repeat;
+				}
+
+				@media screen and (max-width:500px) {
+					min-height: 45px;
+				}
+			}
+
+			.jp-controls {
+				background: $black;
+				width: 90px;
+				height: 90px;
+				float: right;
+				padding: 11px 0;
+
+				@media screen and (max-width:500px) {
+					width: 45px;
+					height: 45px;
+					padding: 0px;
+
+					.jp-play {
+						width: 45px;
+						height: 45px;
+						background: url('../images/icon_audio.png') no-repeat 14px 10px;
+						background-size: 17px 24px;
+						margin: 0;
+					}
+
+					.jp-pause {
+						width: 45px;
+						height: 45px;
+						background: url('../images/icon_pause.png') no-repeat 14px 10px;
+						background-size: 14px 24px;
+						margin: 0;
+					}
+				}
+			}
+		}
+
+		.video-detail {
+			position: absolute;
+			top: 0;
+			right: 0;
+			height: 90px;
+			width: 100%;
+
+			a.play-video {
+				height: 90px;
+				width: 90px;
+				@include at2x('icon_play', 28px, 48px);
+				background-color: $black;
+				background-repeat: no-repeat;
+				background-position: 33px 20px;
+				float: right;
+				overflow: hidden;
+				text-indent: -100em;
+
+				@media screen and (max-width:500px) {
+					width: 45px;
+					height: 45px;
+					background-size: 14px 24px;
+					background-position: 17px 10px;
+				}
+			}
+
+			.desc {
+				background: $trans_blue;
+				color: $white;
+				min-height: 90px;
+				overflow: hidden;
+				display: none;
+				font-size: .9em;
+				line-height: 1.1em;
+
+				a {
+					color: $white;
+					text-decoration: underline;
+				}
+
+				.inner {
+					padding: 6px 10px 0 17px;
+				}
+
+				.lt-ie9 & {
+					background: url('../images/trans_blue.png') repeat;
+				}
+
+				@media screen and (max-width:500px) {
+					min-height: 45px;
+				}
+			}
+		}
+
+		.overlay {
+			background: $trans_blue;
+			position: absolute;
+			top: 10px;
+			left: 10px;
+			right: 10px;
+			bottom: 10px;
+			padding: 10px;
+			font-family: "Crimson Text", serif;
+			@include transition(background .5s ease);
+
+			&:hover {
+				background: darken($trans_blue, 10%);
+			}
+
+			.lt-ie9 & {
+				background: url('../images/trans_blue.png') repeat;
+			}
+
+			h3 {
+				color: #ffe29c;
+				font-size: 2em;
+				line-height: 1em;
+				margin: 0 0 .5em;
+			}
+
+			h4 {
+				color: #ffe29c;
+				margin: 0 0 .5em;
+				line-height: 1em;
+			}
+
+			p {
+				color: $white;
+				margin: 0px;
+				line-height: 1em;
+
+				&.more {
+					display: none;
+				}
+			}
+
+			@media screen and (max-width:999px) and (min-width:875px) {
+				h3 {
+					font-size: 1.75em;
+				}
+
+				h4 {
+					//color: $white;
+
+					br {
+						display: none;
+					}
+				}
+
+				p {
+					display: none;
+
+					&.more {
+						display: block;
+					}
+				}
+			}
+
+			@media screen and (max-width:874px) and (min-width:768px) {
+				h3 {
+					font-size: 1.25em;
+				}
+
+				h4 {
+					//color: $white;
+
+					br {
+						display: none;
+					}
+				}
+
+				p {
+					display: none;
+
+					&.more {
+						display: block;
+					}
+				}
+			}
+
+			@media screen and (max-width:682px) and (min-width:583px) {
+				h3 {
+					font-size: 1.75em;
+				}
+
+				h4 {
+					//color: $white;
+
+					br {
+						display: none;
+					}
+				}
+
+				p {
+					display: none;
+
+					&.more {
+						display: block;
+					}
+				}
+			}
+
+			@media screen and (max-width:582px) {
+				h3 {
+					font-size: 1.25em;
+				}
+
+				h4 {
+					//color: $white;
+
+					br {
+						display: none;
+					}
+				}
+
+				p {
+					display: none;
+
+					&.more {
+						display: block;
+					}
+				}
+			}
+
+			@media screen and (max-width:482px) {
+				padding: 5px;
+				top: 5px;
+				bottom: 5px;
+				left: 5px;
+				right: 5px;
+
+				h3 {
+					font-size: 1em;
+				}
+
+				h4 {
+					display: none;
+				}
+
+				p {
+					display: none;
+
+					&.more {
+						display: block;
+					}
+				}
+			}
+		}
+
+		.cycle-pager {
+			position: absolute;
+			top: 0;
+			right: 5px;
+			font-size: 3em;
+			color: $opaque_blue;
+			z-index: 100;
+
+			span {
+				cursor: pointer;
+				background: $opaque_blue;
+				display: inline-block;
+				height: 15px;
+				width: 15px;
+				margin: 10px 3px;
+				overflow: hidden;
+
+				&.cycle-pager-active {
+					color: $white;
+					background: $white;
+				}
+			}
+		}
+
+	}
+}
+
+#page-footer {
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 100px;
+	padding-top: 50px;
+
+	h2 {
+		width: 364px;
+		height: 46px;
+		text-indent: -100em;
+		overflow: hidden;
+		position: relative;
+		margin: 20px auto;
+		background-repeat: no-repeat;
+
+		&.contribute {
+			a {
+				display: block;
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+
+	.row {
+		margin-bottom: 50px;
+	}
+
+	img.thumb {
+		float: left;
+		display: block;
+		margin: 0 10px 0 0;
+		width: 76px;
+		height: 76px;
+	}
+
+	p {
+		margin: 0px;
+		overflow: hidden;
+		color: $black;
+	}
+
+	.hover-bar {
+		position: absolute;
+		top: 0px;
+		left: 10px;
+		right: 10px;
+		height: 100%;
+		background: $opaque_blue;
+		z-index: 0;
+		@include opacity(0);
+	}
+
+	#learn-more {
+		p, img {
+			position: relative;
+		}
+
+		a {
+			display: block;
+			height: 100%;
+			width: 100%;
+			overflow: hidden;
+
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+
+	.nav {
+		a {
+			text-transform: uppercase;
+			font-size: .8em;
+			color: $black;
+
+			span {
+				font-size: 2.5em;
+				vertical-align: -3px;
+			}
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	.text-right {
+		text-align: right;
+	}
+
+	.centered {
+		text-align: center;
+	}
+
+	a.share {
+		background: $black;
+		color: $white;
+		display: block;
+		margin: 20px auto 0;
+		width: 90px;
+		height: 32px;
+		line-height: 1.9em;
+		text-align: left;
+
+		span {
+			display: block;
+			float: left;
+			background-color: $white;
+			border-right: 2px solid $white;
+			margin-right: 8px;
+		}
+	}
+
+	.social {
+		a {
+			display: block;
+			float: left;
+			margin: 0 5px 0 0;
+			text-indent: -100em;
+			overflow: hidden;
+		}
+	}
+
+	a.our-state {
+		@include at2x('our_state', 159px, 43px);
+		width: 159px;
+		height: 43px;
+		overflow: hidden;
+		text-indent: -100em;
+		float: left;
+		display: block;
+	}
+
+	.wrap {
+		overflow: hidden;
+		font-size: .9em;
+		line-height: 1.1em;
+		padding: 0 20px;
+
+		strong {
+			font-size: 1.1em;
+			line-height: 1.1em;
+		}
+
+		a {
+			color: $black;
+		}
+	}
+
+	.credit {
+		font-size: .7em;
+		line-height: 1.1em;
+		font-style: italic;
+
+		a {
+			color: $black;
+		}
+	}
+
+	.caption {
+		right: 0px;
+	}
+
+	@media screen and (max-width:767px) {
+		padding-bottom: 0px;
+
+		.columns {
+			margin-bottom: 1.5em;
+		}
+
+		.social {
+			.wrap {
+				padding-left: 30px;
+			}
+		}
+
+		h2 {
+			width: 320px;
+			height: 40px;
+
+			&.icon-facebook_contribute {
+				background: url('../images/icons/facebook_contribute.png') no-repeat 0 0;
+				-webkit-background-size: 320px auto;
+			    -moz-background-size: 320px auto;
+			    -o-background-size: 320px auto;
+			    background-size: 320px auto;
+			}
+
+			&.icon-learn_more {
+				background: url('../images/icons/learn_more.png') no-repeat 0 0;
+				-webkit-background-size: 320px auto;
+			    -moz-background-size: 320px auto;
+			    -o-background-size: 320px auto;
+			    background-size: 320px auto;
+			}
+		}
+	}
+}

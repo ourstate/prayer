@@ -1,0 +1,35 @@
+// sprites directories
+$sprites: sprite-map("icons/*.png");
+$sprites2x: sprite-map("icons@2x/*.png");
+
+@mixin sprite-background($name) {
+	background-repeat: no-repeat;
+	display: block;
+	background-image: sprite-url($sprites);
+	background-position: sprite-position($sprites, $name);
+	height: image-height(sprite-file($sprites, $name));
+	width: image-width(sprite-file($sprites, $name));
+
+	@media (-webkit-min-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-device-pixel-ratio: 1.5) {
+		background-image: sprite-url($sprites2x);
+		background-position: 0 round(nth(sprite-position($sprites2x, $name), 2) / 2);
+		@include background-size(image-width(sprite-path($sprites)) auto);
+	}
+}
+
+// list out all the image files here
+//@each $_icon in bca, lbb, sbg, star {
+//	.icon-#{$_icon} {
+//		@include sprite-background($_icon);
+//
+//		&:hover {
+//			@include sprite-background($_icon+'_hover');
+//		}
+//	}
+//}
+// no hover states
+@each $_icon2 in arrow_down, arrow_down_black, arrow_left_white, arrow_right_white, facebook, pinterest, twitter, youtube, info, close, facebook_contribute, icon_audio, icon_pause, icon_play, learn_more, our_state, recent_prayers, upcoming_prayers, home_box {
+	.icon-#{$_icon2} {
+		@include sprite-background($_icon2);
+	}
+}
