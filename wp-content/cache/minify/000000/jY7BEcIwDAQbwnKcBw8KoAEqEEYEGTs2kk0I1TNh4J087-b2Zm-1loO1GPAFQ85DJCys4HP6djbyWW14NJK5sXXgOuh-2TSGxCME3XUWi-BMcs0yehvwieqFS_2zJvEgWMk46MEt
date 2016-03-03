@@ -20,13 +20,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
 		<!-- icons & favicons -->
-		<link rel="shortcut icon" href="http://prayer.ourstate.com/wp-content/themes/aprayerfornc/favicon.ico">
+		<link rel="shortcut icon" href="http://prayer.ourstate.com/assets/favicon.ico">
 			
 				<meta property="og:title" content="A Prayer for North Carolina" />
 		<meta property="og:site_name" content="A Prayer for North Carolina" />
 		<meta property="og:url" content="http://prayer.ourstate.com" />
 		<meta property="og:description" content="These heartfelt prayers deeply reflect North Carolina. Their words transcend denominations and deliver a message of faith, community, and hope for our state." />
-		<meta property="og:image" content="http://prayer.ourstate.com/wp-content/themes/aprayerfornc/images/home_landing_feature.jpg" />
+		<meta property="og:image" content="http://prayer.ourstate.com/assets/images/home_landing_feature.jpg" />
 		<meta property="fb:app_id" content="1424281737788820" />
 		<meta property="og:type" content="article" />
 		<meta property="article:publisher" content="92586461482" />
@@ -50,7 +50,7 @@
 
 
 
-<link rel='stylesheet' id='app-css'  href='http://prayer.ourstate.com/wp-content/themes/aprayerfornc/stylesheets/app.css?2&#038;ver=3.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='app-css'  href='http://prayer.ourstate.com/assets/stylesheets/app.css?2&#038;ver=3.6.1' type='text/css' media='all' />
 
 
 
@@ -108,10 +108,10 @@
 	<body class="error404 windows">
 
 	<!-- Preload Our State logo -->
-	<img src="http://prayer.ourstate.com/wp-content/themes/aprayerfornc/images/home_box.png" style="display: none;" />
+	<img src="http://prayer.ourstate.com/assets/images/home_box.png" style="display: none;" />
 
 	<div id="mobile-slideshow" class="show-for-small">
-		<img id="mobile-logo" src="http://prayer.ourstate.com/wp-content/themes/aprayerfornc/images/home_title@2x.png" width="498" height="112" alt="A Prayer for North Carolina" />
+		<img id="mobile-logo" src="http://prayer.ourstate.com/assets/images/home_title@2x.png" width="498" height="112" alt="A Prayer for North Carolina" />
 		<a href="javascript:void(0)" class="cycle-prev icon-arrow_left_white">Prev</a>
 		<a href="javascript:void(0)" class="cycle-next icon-arrow_right_white">Next</a>
 		<div id="mobile-slides" class="cycle-slideshow"
@@ -123,21 +123,21 @@
 			data-cycle-fx="fade"
 			data-cycle-swipe=true>
 			<div>
-				<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/themes/aprayerfornc/images/home_landing_feature_mobile2.jpg">
+				<img src="/assets/images/home_landing_feature_mobile2.jpg">
 				<div class="caption"><span class="text" style="display: none;">Sunset at Fontana Lake in Swain County. Photo credit: Lyle Canterbury</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>
 				<div class="explore">
 					Explore this collection of prayers from<br />rural preachers, urban ministers,<br />and religious scholars, brought to you<br />by a trusted storyteller.
 				</div>
 				<div class="title-box our-state">
-					<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/themes/aprayerfornc/images/home_box.png" width="364" height="136" alt="Our State North Carolina" />
+					<img src="/assets/images/home_box.png" width="364" height="136" alt="Our State North Carolina" />
 				</div>
 			</div>
 						<div class="prayer-billy-graham">
-				<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/01_feature_Graham_mobile.jpg?resize=767%2C767">
+				<img src="/wp-content/uploads/2013/11/01_feature_Graham_mobile.jpg">
 				<div class="caption"><span class="text" style="display: none;">The Rev. Billy Graham at his home in Montreat in 2005. Photo credit: Harry Benson/Contour by Getty Images</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>				<div class="shadow"></div>
 				<div class="title-box">
 					<a href="http://prayer.ourstate.com/billy-graham/">
-						<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/01_author_thumb_Graham2.jpg?resize=136%2C136" width="136" height="136" alt="" />
+						<img src="/wp-content/uploads/2013/11/01_author_thumb_Graham2.jpg" width="136" height="136" alt="" />
 					</a>
 					<div class="inner"><div class="title">
 						<a href="http://prayer.ourstate.com/billy-graham/">
@@ -146,11 +146,11 @@
 				</div>
 			</div>
 						<div class="prayer-john-eckert">
-				<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/02_feature_Eckert_mobile.jpg?resize=767%2C767">
+				<img src="/wp-content/uploads/2013/11/02_feature_Eckert_mobile.jpg">
 				<div class="caption"><span class="text" style="display: none;">Cathedral Falls — also known as Bird Rock Falls — in Transylvania County. Photo credit: Emily Chaplin</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>				<div class="shadow"></div>
 				<div class="title-box">
 					<a href="http://prayer.ourstate.com/john-eckert/">
-						<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/02_author_thumb_Eckert.jpg?resize=136%2C136" width="136" height="136" alt="" />
+						<img src="/wp-content/uploads/2013/11/02_author_thumb_Eckert.jpg" width="136" height="136" alt="" />
 					</a>
 					<div class="inner"><div class="title">
 						<a href="http://prayer.ourstate.com/john-eckert/">
@@ -159,11 +159,11 @@
 				</div>
 			</div>
 						<div class="prayer-fred-bahnson">
-				<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/03_feature_Bahnson_mobile.jpg?resize=767%2C767">
+				<img src="/wp-content/uploads/2013/11/03_feature_Bahnson_mobile.jpg">
 				<div class="caption"><span class="text" style="display: none;">Moravian Lovefeast. Photo credit: Jay Sinclair</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>				<div class="shadow"></div>
 				<div class="title-box">
 					<a href="http://prayer.ourstate.com/fred-bahnson/">
-						<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/10/03_author_thumb_Bahnson.jpg?resize=136%2C136" width="136" height="136" alt="" />
+						<img src="/wp-content/uploads/2013/10/03_author_thumb_Bahnson.jpg" width="136" height="136" alt="" />
 					</a>
 					<div class="inner"><div class="title">
 						<a href="http://prayer.ourstate.com/fred-bahnson/">
@@ -172,11 +172,11 @@
 				</div>
 			</div>
 						<div class="prayer-win-bassett">
-				<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/04_feature_Bassett_mobile.jpg?resize=767%2C767">
+				<img src="/wp-content/uploads/2013/11/04_feature_Bassett_mobile.jpg">
 				<div class="caption"><span class="text" style="display: none;">Photo credit: Travis Dove</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>				<div class="shadow"></div>
 				<div class="title-box">
 					<a href="http://prayer.ourstate.com/win-bassett/">
-						<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/04_author_thumb_Bassett.jpg?resize=136%2C136" width="136" height="136" alt="" />
+						<img src="/wp-content/uploads/2013/11/04_author_thumb_Bassett.jpg" width="136" height="136" alt="" />
 					</a>
 					<div class="inner"><div class="title">
 						<a href="http://prayer.ourstate.com/win-bassett/">
@@ -185,11 +185,11 @@
 				</div>
 			</div>
 						<div class="prayer-sid-batts">
-				<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/05_feature_Batts_mobile1.jpg?resize=767%2C767">
+				<img src="/wp-content/uploads/2013/11/05_feature_Batts_mobile1.jpg">
 				<div class="caption"><span class="text" style="display: none;">First Presbyterian Church in Greensboro. Photo credit: First Presbyterian Church</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>				<div class="shadow"></div>
 				<div class="title-box">
 					<a href="http://prayer.ourstate.com/sid-batts/">
-						<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/05_author_thumb_Batts.jpg?resize=136%2C136" width="136" height="136" alt="" />
+						<img src="/wp-content/uploads/2013/11/05_author_thumb_Batts.jpg" width="136" height="136" alt="" />
 					</a>
 					<div class="inner"><div class="title">
 						<a href="http://prayer.ourstate.com/sid-batts/">
@@ -198,11 +198,11 @@
 				</div>
 			</div>
 						<div class="prayer-david-chadwick">
-				<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/06_feature_Chadwick1.jpg?resize=767%2C767">
+				<img src="/wp-content/uploads/2013/11/06_feature_Chadwick1.jpg">
 				<div class="caption"><span class="text" style="display: none;">Uptown Charlotte from Fourth Ward Park. Photo credit: Travis Dove</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>				<div class="shadow"></div>
 				<div class="title-box">
 					<a href="http://prayer.ourstate.com/david-chadwick/">
-						<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/06_author_thumb_Chadwick.jpg?resize=136%2C136" width="136" height="136" alt="" />
+						<img src="/wp-content/uploads/2013/11/06_author_thumb_Chadwick.jpg" width="136" height="136" alt="" />
 					</a>
 					<div class="inner"><div class="title">
 						<a href="http://prayer.ourstate.com/david-chadwick/">
@@ -211,11 +211,11 @@
 				</div>
 			</div>
 						<div class="prayer-paul-sidlofsky">
-				<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/07_feature_Sidlofsky_mobile.jpg?resize=767%2C767">
+				<img src="/wp-content/uploads/2013/11/07_feature_Sidlofsky_mobile.jpg">
 				<div class="caption"><span class="text" style="display: none;">Airlie Gardens in Wilmington. Photo credit: Stacey Van Berkel</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>				<div class="shadow"></div>
 				<div class="title-box">
 					<a href="http://prayer.ourstate.com/paul-sidlofsky/">
-						<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/07_author_thumb_Sidlofsky.jpg?resize=136%2C136" width="136" height="136" alt="" />
+						<img src="/wp-content/uploads/2013/11/07_author_thumb_Sidlofsky.jpg" width="136" height="136" alt="" />
 					</a>
 					<div class="inner"><div class="title">
 						<a href="http://prayer.ourstate.com/paul-sidlofsky/">
@@ -224,11 +224,11 @@
 				</div>
 			</div>
 						<div class="prayer-tony-cartledge">
-				<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/08_feature_Cartledge_mobile.jpg?resize=767%2C767">
+				<img src="/wp-content/uploads/2013/11/08_feature_Cartledge_mobile.jpg">
 				<div class="caption"><span class="text" style="display: none;">Dr. Tony Cartledge in Butler Chapel at Campbell University. Photo credit: Travis Dove</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>				<div class="shadow"></div>
 				<div class="title-box">
 					<a href="http://prayer.ourstate.com/tony-cartledge/">
-						<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/08_author_thumb_Cartledge.jpg?resize=136%2C136" width="136" height="136" alt="" />
+						<img src="/wp-content/uploads/2013/11/08_author_thumb_Cartledge.jpg" width="136" height="136" alt="" />
 					</a>
 					<div class="inner"><div class="title">
 						<a href="http://prayer.ourstate.com/tony-cartledge/">
@@ -237,11 +237,11 @@
 				</div>
 			</div>
 						<div class="prayer-brooks-graebner">
-				<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/09_feature_Graebner_mobile.jpg?resize=767%2C767">
+				<img src="/wp-content/uploads/2013/11/09_feature_Graebner_mobile.jpg">
 				<div class="caption"><span class="text" style="display: none;">St. Matthew's Episcopal Church in Hillsborough. Photo credit: Travis Dove</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>				<div class="shadow"></div>
 				<div class="title-box">
 					<a href="http://prayer.ourstate.com/brooks-graebner/">
-						<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/09_author_thumb_Graebner.jpg?resize=136%2C136" width="136" height="136" alt="" />
+						<img src="/wp-content/uploads/2013/11/09_author_thumb_Graebner.jpg" width="136" height="136" alt="" />
 					</a>
 					<div class="inner"><div class="title">
 						<a href="http://prayer.ourstate.com/brooks-graebner/">
@@ -250,11 +250,11 @@
 				</div>
 			</div>
 						<div class="prayer-david-smith">
-				<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/10_feature_Smith_mobile.jpg?resize=767%2C767">
+				<img src="/wp-content/uploads/2013/11/10_feature_Smith_mobile.jpg">
 				<div class="caption"><span class="text" style="display: none;">The Rev. David Smith at T.H. Broyhill Walking Park in Lenoir. Photo credit: Bill Lusk</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>				<div class="shadow"></div>
 				<div class="title-box">
 					<a href="http://prayer.ourstate.com/david-smith/">
-						<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/10_home_thumb_Smith1.jpg?resize=136%2C136" width="136" height="136" alt="" />
+						<img src="/wp-content/uploads/2013/11/10_home_thumb_Smith1.jpg" width="136" height="136" alt="" />
 					</a>
 					<div class="inner"><div class="title">
 						<a href="http://prayer.ourstate.com/david-smith/">
@@ -263,11 +263,11 @@
 				</div>
 			</div>
 						<div class="prayer-rick-bennett">
-				<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/11_feature_Bennett_mobile.jpg?resize=767%2C767">
+				<img src="/wp-content/uploads/2013/11/11_feature_Bennett_mobile.jpg">
 				<div class="caption"><span class="text" style="display: none;">The Yadkin River near Elkin. PHOTO CREDIT: Bill Lusk</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>				<div class="shadow"></div>
 				<div class="title-box">
 					<a href="http://prayer.ourstate.com/rick-bennett/">
-						<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/11_author_thumb_Bennett.jpg?resize=136%2C136" width="136" height="136" alt="" />
+						<img src="/wp-content/uploads/2013/11/11_author_thumb_Bennett.jpg" width="136" height="136" alt="" />
 					</a>
 					<div class="inner"><div class="title">
 						<a href="http://prayer.ourstate.com/rick-bennett/">
@@ -276,11 +276,11 @@
 				</div>
 			</div>
 						<div class="prayer-amy-rio-anderson">
-				<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/12_feature_RioAnderson_mobile.jpg?resize=767%2C767">
+				<img src="/wp-content/uploads/2013/11/12_feature_RioAnderson_mobile.jpg">
 				<div class="caption"><span class="text" style="display: none;">The Rev. Amy Rio-Anderson at Salem College in Winston-Salem. Photo credit: Bill Lusk</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>				<div class="shadow"></div>
 				<div class="title-box">
 					<a href="http://prayer.ourstate.com/amy-rio-anderson/">
-						<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/12_author_thumb_RioAnderson.jpg?resize=136%2C136" width="136" height="136" alt="" />
+						<img src="/wp-content/uploads/2013/11/12_author_thumb_RioAnderson.jpg" width="136" height="136" alt="" />
 					</a>
 					<div class="inner"><div class="title">
 						<a href="http://prayer.ourstate.com/amy-rio-anderson/">
@@ -289,11 +289,11 @@
 				</div>
 			</div>
 						<div class="prayer-keith-turman">
-				<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/13_feature_Turman_mobile.jpg?resize=767%2C767">
+				<img src="/wp-content/uploads/2013/11/13_feature_Turman_mobile.jpg">
 				<div class="caption"><span class="text" style="display: none;">The Rev. Keith Turman at his home in Asheville. PHOTO CREDIT: Bill Lusk</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>				<div class="shadow"></div>
 				<div class="title-box">
 					<a href="http://prayer.ourstate.com/keith-turman/">
-						<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/13_author_thumb_Turman.jpg?resize=136%2C136" width="136" height="136" alt="" />
+						<img src="/wp-content/uploads/2013/11/13_author_thumb_Turman.jpg" width="136" height="136" alt="" />
 					</a>
 					<div class="inner"><div class="title">
 						<a href="http://prayer.ourstate.com/keith-turman/">
@@ -302,11 +302,11 @@
 				</div>
 			</div>
 						<div class="prayer-max-carter">
-				<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/14_feature_Carter_mobile.jpg?resize=767%2C767">
+				<img src="/wp-content/uploads/2013/11/14_feature_Carter_mobile.jpg">
 				<div class="caption"><span class="text" style="display: none;">Mallory Creek drains into the Cape Fear River near Wilmington. PHOTO CREDIT: Jennifer Westmoreland</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>				<div class="shadow"></div>
 				<div class="title-box">
 					<a href="http://prayer.ourstate.com/max-carter/">
-						<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/14_author_thumb_Carter.jpg?resize=136%2C136" width="136" height="136" alt="" />
+						<img src="/wp-content/uploads/2013/11/14_author_thumb_Carter.jpg" width="136" height="136" alt="" />
 					</a>
 					<div class="inner"><div class="title">
 						<a href="http://prayer.ourstate.com/max-carter/">
@@ -315,11 +315,11 @@
 				</div>
 			</div>
 						<div class="prayer-john-cleghorn">
-				<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/15_feature_Cleghorn_mobile.jpg?resize=767%2C767">
+				<img src="/wp-content/uploads/2013/11/15_feature_Cleghorn_mobile.jpg">
 				<div class="caption"><span class="text" style="display: none;">Photo credit: Bill Lusk</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>				<div class="shadow"></div>
 				<div class="title-box">
 					<a href="http://prayer.ourstate.com/john-cleghorn/">
-						<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/15_author_thumb_Cleghorn.jpg?resize=136%2C136" width="136" height="136" alt="" />
+						<img src="/wp-content/uploads/2013/11/15_author_thumb_Cleghorn.jpg" width="136" height="136" alt="" />
 					</a>
 					<div class="inner"><div class="title">
 						<a href="http://prayer.ourstate.com/john-cleghorn/">
@@ -328,11 +328,11 @@
 				</div>
 			</div>
 						<div class="prayer-jane-wilson">
-				<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/16_feature_Wilson_mobile.jpg?resize=767%2C767">
+				<img src="/wp-content/uploads/2013/11/16_feature_Wilson_mobile.jpg">
 				<div class="caption"><span class="text" style="display: none;">Photo credit: Travis Dove</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>				<div class="shadow"></div>
 				<div class="title-box">
 					<a href="http://prayer.ourstate.com/jane-wilson/">
-						<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/16_author_thumb_Wilson.jpg?resize=136%2C136" width="136" height="136" alt="" />
+						<img src="/wp-content/uploads/2013/11/16_author_thumb_Wilson.jpg" width="136" height="136" alt="" />
 					</a>
 					<div class="inner"><div class="title">
 						<a href="http://prayer.ourstate.com/jane-wilson/">
@@ -345,7 +345,7 @@
 
 	<div id="feature-slideshow" class="hide-for-small">
 		<h1 class="main-title">A Prayer for North Carolina</h1>
-		<img id="main-logo" src="http://prayer.ourstate.com/wp-content/themes/aprayerfornc/images/home_title@2x.png" width="498" height="112" alt="A Prayer for North Carolina" data-stellar-ratio="1.5" />
+		<img id="main-logo" src="http://prayer.ourstate.com/assets/images/home_title@2x.png" width="498" height="112" alt="A Prayer for North Carolina" data-stellar-ratio="1.5" />
 		<a href="javascript:void(0)" class="cycle-prev icon-arrow_left_white">Prev</a>
 		<a href="javascript:void(0)" class="cycle-next icon-arrow_right_white">Next</a>
 		<div id="slides" class="cycle-slideshow"
@@ -356,146 +356,146 @@
 			data-cycle-next="#feature-slideshow .cycle-next"
 			data-cycle-fx="fade">
 			<div>
-				<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/themes/aprayerfornc/images/home_landing_feature_2.jpg" data-stellar-ratio="0.5">
+				<img src="/assets/images/home_landing_feature_2.jpg" data-stellar-ratio="0.5">
 				<div class="caption"><span class="text" style="display: none;">Sunset at Fontana Lake in Swain County. Photo credit: Lyle Canterbury</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>
 				<div class="explore">
 					Explore this collection of prayers from<br />rural preachers, urban ministers,<br />and religious scholars, brought to you<br />by a trusted storyteller.
 				</div>
 			</div>
 						<div class="prayer-billy-graham">
-				<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/01_feature_Graham1.jpg?resize=1500%2C1000" data-stellar-ratio="0.5">
+				<img src="/wp-content/uploads/2013/11/01_feature_Graham1.jpg" data-stellar-ratio="0.5">
 				<div class="caption"><span class="text" style="display: none;">The Rev. Billy Graham at his home in Montreat in 2005. Photo credit: Harry Benson/Contour by Getty Images</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>				<div class="shadow" data-stellar-ratio="1.5"></div>
 			</div>
 						<div class="prayer-john-eckert">
-				<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/02_feature_Eckert.jpg?resize=1500%2C1000" data-stellar-ratio="0.5">
+				<img src="/wp-content/uploads/2013/11/02_feature_Eckert.jpg" data-stellar-ratio="0.5">
 				<div class="caption"><span class="text" style="display: none;">Cathedral Falls — also known as Bird Rock Falls — in Transylvania County. Photo credit: Emily Chaplin</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>				<div class="shadow" data-stellar-ratio="1.5"></div>
 			</div>
 						<div class="prayer-fred-bahnson">
-				<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/10/03_feature_Bahnson.jpg?resize=1500%2C1000" data-stellar-ratio="0.5">
+				<img src="/wp-content/uploads/2013/10/03_feature_Bahnson.jpg" data-stellar-ratio="0.5">
 				<div class="caption"><span class="text" style="display: none;">Moravian Lovefeast. Photo credit: Jay Sinclair</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>				<div class="shadow" data-stellar-ratio="1.5"></div>
 			</div>
 						<div class="prayer-win-bassett">
-				<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/04_feature_Bassett.jpg?resize=1500%2C1000" data-stellar-ratio="0.5">
+				<img src="/wp-content/uploads/2013/11/04_feature_Bassett.jpg" data-stellar-ratio="0.5">
 				<div class="caption"><span class="text" style="display: none;">Photo credit: Travis Dove</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>				<div class="shadow" data-stellar-ratio="1.5"></div>
 			</div>
 						<div class="prayer-sid-batts">
-				<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/05_feature_Batts.jpg?resize=1500%2C1000" data-stellar-ratio="0.5">
+				<img src="/wp-content/uploads/2013/11/05_feature_Batts.jpg" data-stellar-ratio="0.5">
 				<div class="caption"><span class="text" style="display: none;">First Presbyterian Church in Greensboro. Photo credit: First Presbyterian Church</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>				<div class="shadow" data-stellar-ratio="1.5"></div>
 			</div>
 						<div class="prayer-david-chadwick">
-				<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/06_feature_Chadwick.jpg?resize=1500%2C1000" data-stellar-ratio="0.5">
+				<img src="/wp-content/uploads/2013/11/06_feature_Chadwick.jpg" data-stellar-ratio="0.5">
 				<div class="caption"><span class="text" style="display: none;">Uptown Charlotte from Fourth Ward Park. Photo credit: Travis Dove</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>				<div class="shadow" data-stellar-ratio="1.5"></div>
 			</div>
 						<div class="prayer-paul-sidlofsky">
-				<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/07_feature_Sidlofsky.jpg?resize=1500%2C1000" data-stellar-ratio="0.5">
+				<img src="/wp-content/uploads/2013/11/07_feature_Sidlofsky.jpg" data-stellar-ratio="0.5">
 				<div class="caption"><span class="text" style="display: none;">Airlie Gardens in Wilmington. Photo credit: Stacey Van Berkel</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>				<div class="shadow" data-stellar-ratio="1.5"></div>
 			</div>
 						<div class="prayer-tony-cartledge">
-				<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/08_feature_Cartledge1.jpg?resize=1500%2C1000" data-stellar-ratio="0.5">
+				<img src="/wp-content/uploads/2013/11/08_feature_Cartledge1.jpg" data-stellar-ratio="0.5">
 				<div class="caption"><span class="text" style="display: none;">Dr. Tony Cartledge in Butler Chapel at Campbell University. Photo credit: Travis Dove</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>				<div class="shadow" data-stellar-ratio="1.5"></div>
 			</div>
 						<div class="prayer-brooks-graebner">
-				<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/09_feature_Graebner.jpg?resize=1500%2C1000" data-stellar-ratio="0.5">
+				<img src="/wp-content/uploads/2013/11/09_feature_Graebner.jpg" data-stellar-ratio="0.5">
 				<div class="caption"><span class="text" style="display: none;">St. Matthew's Episcopal Church in Hillsborough. Photo credit: Travis Dove</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>				<div class="shadow" data-stellar-ratio="1.5"></div>
 			</div>
 						<div class="prayer-david-smith">
-				<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/10_feature_Smith2.jpg?resize=1500%2C1000" data-stellar-ratio="0.5">
+				<img src="/wp-content/uploads/2013/11/10_feature_Smith2.jpg" data-stellar-ratio="0.5">
 				<div class="caption"><span class="text" style="display: none;">The Rev. David Smith at T.H. Broyhill Walking Park in Lenoir. Photo credit: Bill Lusk</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>				<div class="shadow" data-stellar-ratio="1.5"></div>
 			</div>
 						<div class="prayer-rick-bennett">
-				<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/11_feature_Bennett.jpg?resize=1500%2C1000" data-stellar-ratio="0.5">
+				<img src="/wp-content/uploads/2013/11/11_feature_Bennett.jpg" data-stellar-ratio="0.5">
 				<div class="caption"><span class="text" style="display: none;">The Yadkin River near Elkin. PHOTO CREDIT: Bill Lusk</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>				<div class="shadow" data-stellar-ratio="1.5"></div>
 			</div>
 						<div class="prayer-amy-rio-anderson">
-				<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/12_feature_RioAnderson1.jpg?resize=1500%2C1000" data-stellar-ratio="0.5">
+				<img src="/wp-content/uploads/2013/11/12_feature_RioAnderson1.jpg" data-stellar-ratio="0.5">
 				<div class="caption"><span class="text" style="display: none;">The Rev. Amy Rio-Anderson at Salem College in Winston-Salem. Photo credit: Bill Lusk</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>				<div class="shadow" data-stellar-ratio="1.5"></div>
 			</div>
 						<div class="prayer-keith-turman">
-				<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/13_feature_Turman1.jpg?resize=1500%2C1000" data-stellar-ratio="0.5">
+				<img src="/wp-content/uploads/2013/11/13_feature_Turman1.jpg" data-stellar-ratio="0.5">
 				<div class="caption"><span class="text" style="display: none;">The Rev. Keith Turman at his home in Asheville. PHOTO CREDIT: Bill Lusk</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>				<div class="shadow" data-stellar-ratio="1.5"></div>
 			</div>
 						<div class="prayer-max-carter">
-				<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/14_feature_Carter.jpg?resize=1500%2C1000" data-stellar-ratio="0.5">
+				<img src="/wp-content/uploads/2013/11/14_feature_Carter.jpg" data-stellar-ratio="0.5">
 				<div class="caption"><span class="text" style="display: none;">Mallory Creek drains into the Cape Fear River near Wilmington. PHOTO CREDIT: Jennifer Westmoreland</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>				<div class="shadow" data-stellar-ratio="1.5"></div>
 			</div>
 						<div class="prayer-john-cleghorn">
-				<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/15_feature_Cleghorn1.jpg?resize=1500%2C1000" data-stellar-ratio="0.5">
+				<img src="/wp-content/uploads/2013/11/15_feature_Cleghorn1.jpg" data-stellar-ratio="0.5">
 				<div class="caption"><span class="text" style="display: none;">Photo credit: Bill Lusk</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>				<div class="shadow" data-stellar-ratio="1.5"></div>
 			</div>
 						<div class="prayer-jane-wilson">
-				<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/16_feature_Wilson.jpg?resize=1500%2C1000" data-stellar-ratio="0.5">
+				<img src="/wp-content/uploads/2013/11/16_feature_Wilson.jpg" data-stellar-ratio="0.5">
 				<div class="caption"><span class="text" style="display: none;">Photo credit: Travis Dove</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>				<div class="shadow" data-stellar-ratio="1.5"></div>
 			</div>
 					</div>
 		<div class="pager-background"></div>
 		<div id="pager">
 						<div data-slide-index="9" class="item">
-				<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/09_home_thumb_Graebner.jpg?resize=95%2C70&filter=grayscale" class="gray" alt="" />
-				<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/09_home_thumb_Graebner.jpg?resize=95%2C70" class="color" alt="" />
+				<img src="/wp-content/uploads/2013/11/09_home_thumb_Graebner.jpg" class="gray" alt="" />
+				<img src="/wp-content/uploads/2013/11/09_home_thumb_Graebner.jpg" class="color" alt="" />
 			</div>
 						<div data-slide-index="10" class="item">
-				<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/10_home_thumb_crop_Smith.jpg?resize=95%2C70&filter=grayscale" class="gray" alt="" />
-				<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/10_home_thumb_crop_Smith.jpg?resize=95%2C70" class="color" alt="" />
+				<img src="/wp-content/uploads/2013/11/10_home_thumb_crop_Smith.jpg" class="gray" alt="" />
+				<img src="/wp-content/uploads/2013/11/10_home_thumb_crop_Smith.jpg" class="color" alt="" />
 			</div>
 						<div data-slide-index="11" class="item">
-				<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/11_home_thumb_Bennett.jpg?resize=95%2C70&filter=grayscale" class="gray" alt="" />
-				<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/11_home_thumb_Bennett.jpg?resize=95%2C70" class="color" alt="" />
+				<img src="/wp-content/uploads/2013/11/11_home_thumb_Bennett.jpg" class="gray" alt="" />
+				<img src="/wp-content/uploads/2013/11/11_home_thumb_Bennett.jpg" class="color" alt="" />
 			</div>
 						<div data-slide-index="12" class="item">
-				<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/12_home_thumb_RioAnderson.jpg?resize=95%2C70&filter=grayscale" class="gray" alt="" />
-				<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/12_home_thumb_RioAnderson.jpg?resize=95%2C70" class="color" alt="" />
+				<img src="/wp-content/uploads/2013/11/12_home_thumb_RioAnderson.jpg" class="gray" alt="" />
+				<img src="/wp-content/uploads/2013/11/12_home_thumb_RioAnderson.jpg" class="color" alt="" />
 			</div>
 						<div data-slide-index="13" class="item">
-				<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/13_home_thumb_Turman.jpg?resize=95%2C70&filter=grayscale" class="gray" alt="" />
-				<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/13_home_thumb_Turman.jpg?resize=95%2C70" class="color" alt="" />
+				<img src="/wp-content/uploads/2013/11/13_home_thumb_Turman.jpg" class="gray" alt="" />
+				<img src="/wp-content/uploads/2013/11/13_home_thumb_Turman.jpg" class="color" alt="" />
 			</div>
 						<div data-slide-index="14" class="item">
-				<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/14_home_thumb_Carter.jpg?resize=95%2C70&filter=grayscale" class="gray" alt="" />
-				<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/14_home_thumb_Carter.jpg?resize=95%2C70" class="color" alt="" />
+				<img src="/wp-content/uploads/2013/11/14_home_thumb_Carter.jpg" class="gray" alt="" />
+				<img src="/wp-content/uploads/2013/11/14_home_thumb_Carter.jpg" class="color" alt="" />
 			</div>
 						<div data-slide-index="15" class="item">
-				<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/15_home_thumb_Cleghorn.jpg?resize=95%2C70&filter=grayscale" class="gray" alt="" />
-				<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/15_home_thumb_Cleghorn.jpg?resize=95%2C70" class="color" alt="" />
+				<img src="/wp-content/uploads/2013/11/15_home_thumb_Cleghorn.jpg" class="gray" alt="" />
+				<img src="/wp-content/uploads/2013/11/15_home_thumb_Cleghorn.jpg" class="color" alt="" />
 			</div>
 						<div data-slide-index="16" class="item">
-				<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/16_home_thumb_Wilson.jpg?resize=95%2C70&filter=grayscale" class="gray" alt="" />
-				<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/16_home_thumb_Wilson.jpg?resize=95%2C70" class="color" alt="" />
+				<img src="/wp-content/uploads/2013/11/16_home_thumb_Wilson.jpg" class="gray" alt="" />
+				<img src="/wp-content/uploads/2013/11/16_home_thumb_Wilson.jpg" class="color" alt="" />
 			</div>
 						<div data-slide-index="0" class="item">
-				<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/themes/aprayerfornc/images/home_landing_thumb.jpg?filter=grayscale" class="gray" alt="" />
-				<img src="http://prayer.ourstate.com/wp-content/themes/aprayerfornc/images/home_landing_thumb.jpg" class="color" alt="" />
+				<img src="/assets/images/home_landing_thumb.jpg?filter=grayscale" class="gray" alt="" />
+				<img src="http://prayer.ourstate.com/assets/images/home_landing_thumb.jpg" class="color" alt="" />
 			</div>
 						<div data-slide-index="1" class="item">
-				<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/01_home_thumb_Graham2.jpg?resize=95%2C70&filter=grayscale" class="gray" alt="" />
-				<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/01_home_thumb_Graham2.jpg?resize=95%2C70" class="color" alt="" />
+				<img src="/wp-content/uploads/2013/11/01_home_thumb_Graham2.jpg" class="gray" alt="" />
+				<img src="/wp-content/uploads/2013/11/01_home_thumb_Graham2.jpg" class="color" alt="" />
 			</div>
 						<div data-slide-index="2" class="item">
-				<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/02_home_thumb_Eckert.jpg?resize=95%2C70&filter=grayscale" class="gray" alt="" />
-				<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/02_home_thumb_Eckert.jpg?resize=95%2C70" class="color" alt="" />
+				<img src="/wp-content/uploads/2013/11/02_home_thumb_Eckert.jpg" class="gray" alt="" />
+				<img src="/wp-content/uploads/2013/11/02_home_thumb_Eckert.jpg" class="color" alt="" />
 			</div>
 						<div data-slide-index="3" class="item">
-				<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/10/03_home_thumb_Bahnson.jpg?resize=95%2C70&filter=grayscale" class="gray" alt="" />
-				<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/10/03_home_thumb_Bahnson.jpg?resize=95%2C70" class="color" alt="" />
+				<img src="/wp-content/uploads/2013/10/03_home_thumb_Bahnson.jpg" class="gray" alt="" />
+				<img src="/wp-content/uploads/2013/10/03_home_thumb_Bahnson.jpg" class="color" alt="" />
 			</div>
 						<div data-slide-index="4" class="item">
-				<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/04_home_thumb_Bassett.jpg?resize=95%2C70&filter=grayscale" class="gray" alt="" />
-				<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/04_home_thumb_Bassett.jpg?resize=95%2C70" class="color" alt="" />
+				<img src="/wp-content/uploads/2013/11/04_home_thumb_Bassett.jpg" class="gray" alt="" />
+				<img src="/wp-content/uploads/2013/11/04_home_thumb_Bassett.jpg" class="color" alt="" />
 			</div>
 						<div data-slide-index="5" class="item">
-				<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/05_home_thumb_Batts.jpg?resize=95%2C70&filter=grayscale" class="gray" alt="" />
-				<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/05_home_thumb_Batts.jpg?resize=95%2C70" class="color" alt="" />
+				<img src="/wp-content/uploads/2013/11/05_home_thumb_Batts.jpg" class="gray" alt="" />
+				<img src="/wp-content/uploads/2013/11/05_home_thumb_Batts.jpg" class="color" alt="" />
 			</div>
 						<div data-slide-index="6" class="item">
-				<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/06_home_thumb_Chadwick.jpg?resize=95%2C70&filter=grayscale" class="gray" alt="" />
-				<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/06_home_thumb_Chadwick.jpg?resize=95%2C70" class="color" alt="" />
+				<img src="/wp-content/uploads/2013/11/06_home_thumb_Chadwick.jpg" class="gray" alt="" />
+				<img src="/wp-content/uploads/2013/11/06_home_thumb_Chadwick.jpg" class="color" alt="" />
 			</div>
 						<div data-slide-index="7" class="item">
-				<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/07_home_thumb_Sidlofsky.jpg?resize=95%2C70&filter=grayscale" class="gray" alt="" />
-				<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/07_home_thumb_Sidlofsky.jpg?resize=95%2C70" class="color" alt="" />
+				<img src="/wp-content/uploads/2013/11/07_home_thumb_Sidlofsky.jpg" class="gray" alt="" />
+				<img src="/wp-content/uploads/2013/11/07_home_thumb_Sidlofsky.jpg" class="color" alt="" />
 			</div>
 						<div data-slide-index="8" class="item">
-				<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/08_home_thumb_Cartledge.jpg?resize=95%2C70&filter=grayscale" class="gray" alt="" />
-				<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/08_home_thumb_Cartledge.jpg?resize=95%2C70" class="color" alt="" />
+				<img src="/wp-content/uploads/2013/11/08_home_thumb_Cartledge.jpg" class="gray" alt="" />
+				<img src="/wp-content/uploads/2013/11/08_home_thumb_Cartledge.jpg" class="color" alt="" />
 			</div>
 					</div>
 	</div>
@@ -508,11 +508,11 @@
 		data-cycle-next="#feature-slideshow .cycle-next"
 		data-cycle-fx="fade">
 		<div>
-			<img src="http://prayer.ourstate.com/wp-content/themes/aprayerfornc/images/home_box.png" width="364" height="136" alt="Our State North Carolina" />
+			<img src="http://prayer.ourstate.com/assets/images/home_box.png" width="364" height="136" alt="Our State North Carolina" />
 		</div>
 				<div><div class="inner">
 			<a href="http://prayer.ourstate.com/billy-graham/">
-				<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/01_author_thumb_Graham2.jpg?resize=136%2C136" width="136" height="136" alt="" />
+				<img src="/wp-content/uploads/2013/11/01_author_thumb_Graham2.jpg" width="136" height="136" alt="" />
 			</a>
 			<div class="title">
 				<a href="http://prayer.ourstate.com/billy-graham/">
@@ -521,7 +521,7 @@
 		</div></div>
 				<div><div class="inner">
 			<a href="http://prayer.ourstate.com/john-eckert/">
-				<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/02_author_thumb_Eckert.jpg?resize=136%2C136" width="136" height="136" alt="" />
+				<img src="/wp-content/uploads/2013/11/02_author_thumb_Eckert.jpg" width="136" height="136" alt="" />
 			</a>
 			<div class="title">
 				<a href="http://prayer.ourstate.com/john-eckert/">
@@ -530,7 +530,7 @@
 		</div></div>
 				<div><div class="inner">
 			<a href="http://prayer.ourstate.com/fred-bahnson/">
-				<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/10/03_author_thumb_Bahnson.jpg?resize=136%2C136" width="136" height="136" alt="" />
+				<img src="/wp-content/uploads/2013/10/03_author_thumb_Bahnson.jpg" width="136" height="136" alt="" />
 			</a>
 			<div class="title">
 				<a href="http://prayer.ourstate.com/fred-bahnson/">
@@ -539,7 +539,7 @@
 		</div></div>
 				<div><div class="inner">
 			<a href="http://prayer.ourstate.com/win-bassett/">
-				<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/04_author_thumb_Bassett.jpg?resize=136%2C136" width="136" height="136" alt="" />
+				<img src="/wp-content/uploads/2013/11/04_author_thumb_Bassett.jpg" width="136" height="136" alt="" />
 			</a>
 			<div class="title">
 				<a href="http://prayer.ourstate.com/win-bassett/">
@@ -548,7 +548,7 @@
 		</div></div>
 				<div><div class="inner">
 			<a href="http://prayer.ourstate.com/sid-batts/">
-				<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/05_author_thumb_Batts.jpg?resize=136%2C136" width="136" height="136" alt="" />
+				<img src="/wp-content/uploads/2013/11/05_author_thumb_Batts.jpg" width="136" height="136" alt="" />
 			</a>
 			<div class="title">
 				<a href="http://prayer.ourstate.com/sid-batts/">
@@ -557,7 +557,7 @@
 		</div></div>
 				<div><div class="inner">
 			<a href="http://prayer.ourstate.com/david-chadwick/">
-				<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/06_author_thumb_Chadwick.jpg?resize=136%2C136" width="136" height="136" alt="" />
+				<img src="/wp-content/uploads/2013/11/06_author_thumb_Chadwick.jpg" width="136" height="136" alt="" />
 			</a>
 			<div class="title">
 				<a href="http://prayer.ourstate.com/david-chadwick/">
@@ -566,7 +566,7 @@
 		</div></div>
 				<div><div class="inner">
 			<a href="http://prayer.ourstate.com/paul-sidlofsky/">
-				<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/07_author_thumb_Sidlofsky.jpg?resize=136%2C136" width="136" height="136" alt="" />
+				<img src="/wp-content/uploads/2013/11/07_author_thumb_Sidlofsky.jpg" width="136" height="136" alt="" />
 			</a>
 			<div class="title">
 				<a href="http://prayer.ourstate.com/paul-sidlofsky/">
@@ -575,7 +575,7 @@
 		</div></div>
 				<div><div class="inner">
 			<a href="http://prayer.ourstate.com/tony-cartledge/">
-				<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/08_author_thumb_Cartledge.jpg?resize=136%2C136" width="136" height="136" alt="" />
+				<img src="/wp-content/uploads/2013/11/08_author_thumb_Cartledge.jpg" width="136" height="136" alt="" />
 			</a>
 			<div class="title">
 				<a href="http://prayer.ourstate.com/tony-cartledge/">
@@ -584,7 +584,7 @@
 		</div></div>
 				<div><div class="inner">
 			<a href="http://prayer.ourstate.com/brooks-graebner/">
-				<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/09_author_thumb_Graebner.jpg?resize=136%2C136" width="136" height="136" alt="" />
+				<img src="/wp-content/uploads/2013/11/09_author_thumb_Graebner.jpg" width="136" height="136" alt="" />
 			</a>
 			<div class="title">
 				<a href="http://prayer.ourstate.com/brooks-graebner/">
@@ -593,7 +593,7 @@
 		</div></div>
 				<div><div class="inner">
 			<a href="http://prayer.ourstate.com/david-smith/">
-				<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/10_home_thumb_Smith1.jpg?resize=136%2C136" width="136" height="136" alt="" />
+				<img src="/wp-content/uploads/2013/11/10_home_thumb_Smith1.jpg" width="136" height="136" alt="" />
 			</a>
 			<div class="title">
 				<a href="http://prayer.ourstate.com/david-smith/">
@@ -602,7 +602,7 @@
 		</div></div>
 				<div><div class="inner">
 			<a href="http://prayer.ourstate.com/rick-bennett/">
-				<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/11_author_thumb_Bennett.jpg?resize=136%2C136" width="136" height="136" alt="" />
+				<img src="/wp-content/uploads/2013/11/11_author_thumb_Bennett.jpg" width="136" height="136" alt="" />
 			</a>
 			<div class="title">
 				<a href="http://prayer.ourstate.com/rick-bennett/">
@@ -611,7 +611,7 @@
 		</div></div>
 				<div><div class="inner">
 			<a href="http://prayer.ourstate.com/amy-rio-anderson/">
-				<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/12_author_thumb_RioAnderson.jpg?resize=136%2C136" width="136" height="136" alt="" />
+				<img src="/wp-content/uploads/2013/11/12_author_thumb_RioAnderson.jpg" width="136" height="136" alt="" />
 			</a>
 			<div class="title">
 				<a href="http://prayer.ourstate.com/amy-rio-anderson/">
@@ -620,7 +620,7 @@
 		</div></div>
 				<div><div class="inner">
 			<a href="http://prayer.ourstate.com/keith-turman/">
-				<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/13_author_thumb_Turman.jpg?resize=136%2C136" width="136" height="136" alt="" />
+				<img src="/wp-content/uploads/2013/11/13_author_thumb_Turman.jpg" width="136" height="136" alt="" />
 			</a>
 			<div class="title">
 				<a href="http://prayer.ourstate.com/keith-turman/">
@@ -629,7 +629,7 @@
 		</div></div>
 				<div><div class="inner">
 			<a href="http://prayer.ourstate.com/max-carter/">
-				<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/14_author_thumb_Carter.jpg?resize=136%2C136" width="136" height="136" alt="" />
+				<img src="/wp-content/uploads/2013/11/14_author_thumb_Carter.jpg" width="136" height="136" alt="" />
 			</a>
 			<div class="title">
 				<a href="http://prayer.ourstate.com/max-carter/">
@@ -638,7 +638,7 @@
 		</div></div>
 				<div><div class="inner">
 			<a href="http://prayer.ourstate.com/john-cleghorn/">
-				<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/15_author_thumb_Cleghorn.jpg?resize=136%2C136" width="136" height="136" alt="" />
+				<img src="/wp-content/uploads/2013/11/15_author_thumb_Cleghorn.jpg" width="136" height="136" alt="" />
 			</a>
 			<div class="title">
 				<a href="http://prayer.ourstate.com/john-cleghorn/">
@@ -647,7 +647,7 @@
 		</div></div>
 				<div><div class="inner">
 			<a href="http://prayer.ourstate.com/jane-wilson/">
-				<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/16_author_thumb_Wilson.jpg?resize=136%2C136" width="136" height="136" alt="" />
+				<img src="/wp-content/uploads/2013/11/16_author_thumb_Wilson.jpg" width="136" height="136" alt="" />
 			</a>
 			<div class="title">
 				<a href="http://prayer.ourstate.com/jane-wilson/">
@@ -667,9 +667,9 @@
 	</section>
 
 	<section id="how-this-came-to-be">
-		<img class="background hide-for-small" src="http://i2.wp.com/prayer.ourstate.com/wp-content/themes/aprayerfornc/images/backgnd_How_this.jpg" alt="" data-stellar-ratio="0.5" />
+		<img class="background hide-for-small" src="/assets/images/backgnd_How_this.jpg" alt="" data-stellar-ratio="0.5" />
 		<div class="caption hide-for-small"><span class="text" style="display: none;">Live oaks at Orton Plantation in Wilmington. Photo credit: Kevin Adams</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>
-		<img class="show-for-small" src="http://i2.wp.com/prayer.ourstate.com/wp-content/themes/aprayerfornc/images/backgnd_Top_How_this.jpg" alt ="" />
+		<img class="show-for-small" src="/assets/images/backgnd_Top_How_this.jpg" alt ="" />
 		<div class="row">
 			<div class="eight columns centered">
 				<h2>How This Came to Be</h2>
@@ -685,7 +685,7 @@
 										mp3:"http://prayer.ourstate.com/wp-content/uploads/2013/11/elizabeth-prayer-origin_V2.mp3"
 									});
 								},
-								swfPath: "/wp-content/themes/aprayerfornc/javascripts/jplayer/",
+								swfPath: "/assets/javascripts/jplayer/",
 								supplied: "mp3",
 								wmode: "window",
 								cssSelectorAncestor: "#audio_editor_welcome"
@@ -728,11 +728,11 @@
 				</div>
 			</div>
 		</div>
-		<img class="show-for-small" src="http://i1.wp.com/prayer.ourstate.com/wp-content/themes/aprayerfornc/images/backgnd_Bottom_How_this.jpg" alt ="" />
+		<img class="show-for-small" src="/assets/images/backgnd_Bottom_How_this.jpg" alt ="" />
 	</section>
 	<!--<div id="pre-spacer"></div>-->
 	<section id="recent-prayers">
-		<img class="background hide-for-small" src="http://i0.wp.com/prayer.ourstate.com/wp-content/themes/aprayerfornc/images/backgnd_water_gradient.jpg" alt="" />
+		<img class="background hide-for-small" src="/assets/images/backgnd_water_gradient.jpg" alt="" />
 		<div class="caption for-bg hide-for-small"><span class="text" style="display: none;">Bald Head Island. Photo credit: Emily Chaplin</span><span class="toggle icon-info"></span></div>
 		<div class="row">
 			<h2 class="icon-recent_prayers">Recent Prayers for North Carolina</h2>
@@ -740,7 +740,7 @@
 			
 						<li><div class="inner">
 				<a class="thumb" href="http://prayer.ourstate.com/billy-graham/">
-					<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/01_author_crop_Graham.jpg?resize=565%2C288" alt="Billy Graham" />
+					<img src="/wp-content/uploads/2013/11/01_author_crop_Graham.jpg" alt="Billy Graham" />
 					<div class="wash"></div>
 				</a>
 				<div class="title">
@@ -750,7 +750,7 @@
 			</div></li>
 						<li><div class="inner">
 				<a class="thumb" href="http://prayer.ourstate.com/john-eckert/">
-					<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/02_author_crop_Eckert.jpg?resize=565%2C288" alt="John Eckert" />
+					<img src="/wp-content/uploads/2013/11/02_author_crop_Eckert.jpg" alt="John Eckert" />
 					<div class="wash"></div>
 				</a>
 				<div class="title">
@@ -760,7 +760,7 @@
 			</div></li>
 						<li><div class="inner">
 				<a class="thumb" href="http://prayer.ourstate.com/fred-bahnson/">
-					<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/03_author_crop_Bahnson.jpg?resize=565%2C288" alt="Fred Bahnson" />
+					<img src="/wp-content/uploads/2013/11/03_author_crop_Bahnson.jpg" alt="Fred Bahnson" />
 					<div class="wash"></div>
 				</a>
 				<div class="title">
@@ -770,7 +770,7 @@
 			</div></li>
 						<li><div class="inner">
 				<a class="thumb" href="http://prayer.ourstate.com/win-bassett/">
-					<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/04_author_crop_Bassett.jpg?resize=565%2C288" alt="Win Bassett" />
+					<img src="/wp-content/uploads/2013/11/04_author_crop_Bassett.jpg" alt="Win Bassett" />
 					<div class="wash"></div>
 				</a>
 				<div class="title">
@@ -780,7 +780,7 @@
 			</div></li>
 						<li><div class="inner">
 				<a class="thumb" href="http://prayer.ourstate.com/sid-batts/">
-					<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/05_author_crop_Batts.jpg?resize=565%2C288" alt="Sid Batts" />
+					<img src="/wp-content/uploads/2013/11/05_author_crop_Batts.jpg" alt="Sid Batts" />
 					<div class="wash"></div>
 				</a>
 				<div class="title">
@@ -790,7 +790,7 @@
 			</div></li>
 						<li><div class="inner">
 				<a class="thumb" href="http://prayer.ourstate.com/david-chadwick/">
-					<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/06_author_crop_Chadwick.jpg?resize=565%2C288" alt="David Chadwick" />
+					<img src="/wp-content/uploads/2013/11/06_author_crop_Chadwick.jpg" alt="David Chadwick" />
 					<div class="wash"></div>
 				</a>
 				<div class="title">
@@ -800,7 +800,7 @@
 			</div></li>
 						<li><div class="inner">
 				<a class="thumb" href="http://prayer.ourstate.com/paul-sidlofsky/">
-					<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/07_author_crop_Sidlofsky.jpg?resize=565%2C288" alt="Paul Sidlofsky" />
+					<img src="/wp-content/uploads/2013/11/07_author_crop_Sidlofsky.jpg" alt="Paul Sidlofsky" />
 					<div class="wash"></div>
 				</a>
 				<div class="title">
@@ -810,7 +810,7 @@
 			</div></li>
 						<li><div class="inner">
 				<a class="thumb" href="http://prayer.ourstate.com/tony-cartledge/">
-					<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/08_author_crop_Cartledge.jpg?resize=565%2C288" alt="Tony Cartledge" />
+					<img src="/wp-content/uploads/2013/11/08_author_crop_Cartledge.jpg" alt="Tony Cartledge" />
 					<div class="wash"></div>
 				</a>
 				<div class="title">
@@ -820,7 +820,7 @@
 			</div></li>
 						<li><div class="inner">
 				<a class="thumb" href="http://prayer.ourstate.com/brooks-graebner/">
-					<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/09_author_crop_Graebner.jpg?resize=565%2C288" alt="Brooks Graebner" />
+					<img src="/wp-content/uploads/2013/11/09_author_crop_Graebner.jpg" alt="Brooks Graebner" />
 					<div class="wash"></div>
 				</a>
 				<div class="title">
@@ -830,7 +830,7 @@
 			</div></li>
 						<li><div class="inner">
 				<a class="thumb" href="http://prayer.ourstate.com/david-smith/">
-					<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/10_author_crop_Smith.jpg?resize=565%2C288" alt="David Smith" />
+					<img src="/wp-content/uploads/2013/11/10_author_crop_Smith.jpg" alt="David Smith" />
 					<div class="wash"></div>
 				</a>
 				<div class="title">
@@ -840,7 +840,7 @@
 			</div></li>
 						<li><div class="inner">
 				<a class="thumb" href="http://prayer.ourstate.com/rick-bennett/">
-					<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/11_author_crop_Bennett.jpg?resize=565%2C288" alt="Rick Bennett" />
+					<img src="/wp-content/uploads/2013/11/11_author_crop_Bennett.jpg" alt="Rick Bennett" />
 					<div class="wash"></div>
 				</a>
 				<div class="title">
@@ -850,7 +850,7 @@
 			</div></li>
 						<li><div class="inner">
 				<a class="thumb" href="http://prayer.ourstate.com/amy-rio-anderson/">
-					<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/12_author_crop_RioAnderson.jpg?resize=565%2C288" alt="Amy Rio-Anderson" />
+					<img src="/wp-content/uploads/2013/11/12_author_crop_RioAnderson.jpg" alt="Amy Rio-Anderson" />
 					<div class="wash"></div>
 				</a>
 				<div class="title">
@@ -860,7 +860,7 @@
 			</div></li>
 						<li><div class="inner">
 				<a class="thumb" href="http://prayer.ourstate.com/keith-turman/">
-					<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/13_author_crop_Turman.jpg?resize=565%2C288" alt="Keith Turman" />
+					<img src="/wp-content/uploads/2013/11/13_author_crop_Turman.jpg" alt="Keith Turman" />
 					<div class="wash"></div>
 				</a>
 				<div class="title">
@@ -870,7 +870,7 @@
 			</div></li>
 						<li><div class="inner">
 				<a class="thumb" href="http://prayer.ourstate.com/max-carter/">
-					<img src="http://i2.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/14_author_crop_Carter.jpg?resize=565%2C288" alt="Max Carter" />
+					<img src="/wp-content/uploads/2013/11/14_author_crop_Carter.jpg" alt="Max Carter" />
 					<div class="wash"></div>
 				</a>
 				<div class="title">
@@ -880,7 +880,7 @@
 			</div></li>
 						<li><div class="inner">
 				<a class="thumb" href="http://prayer.ourstate.com/john-cleghorn/">
-					<img src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/15_author_crop_Cleghorn.jpg?resize=565%2C288" alt="John Cleghorn" />
+					<img src="/wp-content/uploads/2013/11/15_author_crop_Cleghorn.jpg" alt="John Cleghorn" />
 					<div class="wash"></div>
 				</a>
 				<div class="title">
@@ -890,7 +890,7 @@
 			</div></li>
 						<li><div class="inner">
 				<a class="thumb" href="http://prayer.ourstate.com/jane-wilson/">
-					<img src="http://i1.wp.com/prayer.ourstate.com/wp-content/uploads/2013/11/16_author_crop_Wilson.jpg?resize=565%2C288" alt="Jane Wilson" />
+					<img src="/wp-content/uploads/2013/11/16_author_crop_Wilson.jpg" alt="Jane Wilson" />
 					<div class="wash"></div>
 				</a>
 				<div class="title">
@@ -910,7 +910,7 @@
 	</section>-->
 
 	<footer id="page-footer">
-		<img class="background hide-for-small" src="http://i0.wp.com/prayer.ourstate.com/wp-content/uploads/2013/10/16_backgnd_Footer_4.jpg" alt="" />
+		<img class="background hide-for-small" src="/wp-content/uploads/2013/10/16_backgnd_Footer_4.jpg" alt="" />
 		<div class="caption hide-for-small"><span class="text" style="display: none;">Mount Pisgah. Photo credit: Emily Chaplin</span><a href="javascript:void(0);" class="toggle icon-info"></a></div>
 
 		<h2 class="contribute icon-facebook_contribute"><a href="http://www.facebook.com/ourstatemagazine" target="_blank">Contribute your prayer</a></h2>
@@ -969,7 +969,7 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
 
 
 
-<script type='text/javascript' src='http://prayer.ourstate.com/wp-content/themes/aprayerfornc/javascripts/scripts.js?2&#038;ver=3.6.1'></script>
+<script type='text/javascript' src='http://prayer.ourstate.com/assets/javascripts/scripts.js?2&#038;ver=3.6.1'></script>
 	
 	<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e43ea66410","applicationID":"7511375","transactionName":"ZQNUNkFWCkpUARBeWVxJdwFHXgtXGgsKU1NK","queueTime":0,"applicationTime":1110,"atts":"SURXQAlMGUQ=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
 
